@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "238876952916",
+    "project_id": "giga-assist",
+    "storage_bucket": "giga-assist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238876952916:android:c473158637ac5fdfa920c1",
+        "android_client_info": {
+          "package_name": "com.giga.giga_assist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238876952916-li8n6f4ubqbmnlvc0o8semek6bucdage.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfeiUa8h_BWSbND_IcPR2ZoPi6TqdYT7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238876952916-li8n6f4ubqbmnlvc0o8semek6bucdage.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238876952916:android:8d02b97fab881a8da920c1",
+        "android_client_info": {
+          "package_name": "com.giga.lider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238876952916-li8n6f4ubqbmnlvc0o8semek6bucdage.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfeiUa8h_BWSbND_IcPR2ZoPi6TqdYT7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238876952916-li8n6f4ubqbmnlvc0o8semek6bucdage.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
