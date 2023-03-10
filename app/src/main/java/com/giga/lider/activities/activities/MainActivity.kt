@@ -19,19 +19,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-
-
         binding.btLogin.setOnClickListener {
             login()
         }
-
-
-
     }
 
     private fun login() {
-        val email = binding.etEmail.text.toString()
+        val email    = binding.etEmail.text.toString()
         val password = binding.etPassword.text.toString()
 
         if (validar(email, password)){
@@ -43,14 +37,16 @@ class MainActivity : AppCompatActivity() {
                        goToHome()
                    }catch (e:Exception){
                        Log.d("prueba", "el error es: $e")
-                       Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+                       Toast.makeText(this, "No es posible iniciar sesión", Toast.LENGTH_SHORT).show()
                    }
+                }else{
+                    Toast.makeText(this, "Revise que el correo y la contraseña esten correctos", Toast.LENGTH_SHORT).show()
                 }
             }
-
-
         }else{
+
             Toast.makeText(this, "Por favor rellene todos los campos", Toast.LENGTH_SHORT).show()
+
         }
     }
 

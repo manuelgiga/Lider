@@ -19,5 +19,8 @@ class AuthProvider {
         }
         return exist
     }
+    fun getId():String{
+        return auth.currentUser?.uid?:""
+    }
 
 }

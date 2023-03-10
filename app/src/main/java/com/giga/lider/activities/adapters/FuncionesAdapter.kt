@@ -14,13 +14,9 @@ import com.giga.lider.activities.models.Funcion
 
 class FuncionesAdapter(var list: List<Funcion>, private val listener:OnItemClickListener):RecyclerView.Adapter<FuncionesAdapter.MyHolder>() {
 
-
-
     interface OnItemClickListener{
         fun onItemClick(position: Int)
     }
-
-
 
     class MyHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         val imagen = itemView.findViewById<ImageView>(R.id.imgFuncion)
